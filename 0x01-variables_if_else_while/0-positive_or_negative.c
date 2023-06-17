@@ -13,7 +13,7 @@ int main(void)
 
 	int n;
 
-	n = rand() % 100 + 1;
+	n = rand() - RAND_NAX / 2;
 	if (n > 0)
 	{
 		printf("%d is positive\n", n);
