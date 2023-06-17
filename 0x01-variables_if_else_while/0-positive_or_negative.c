@@ -7,25 +7,24 @@
  * Return: Always 0
 */
 
-int main() {
-   int n;
+int main(void)
 
-   srand(time(NULL));
+{
 
-   // Generate a random number and assign it to n
-   n = rand() % 201 - 100; // Generates a random number between -100 and 100
+	int n;
 
-   if (n > 0) {
-      printf("%d is positive\n", n);
-   }
-   else if (n == 0) {
-      printf("%d is zero\n", n);
-   }
-   else {
-      printf("%d is negative\n", n);
-   }
-
-   printf("\n");
-
-   return 0;
+	n = rand() % 100 + 1;
+	if (n > 0)
+	{
+		printf("The number %d is positive\n", n);
+	}
+	else if (n == 0)
+	{
+		printf("The number %d is zero\n", n);
+	}
+	else
+	{
+		printf("The number %d is negative\n", n);
+	}
+	return (0);
 }
