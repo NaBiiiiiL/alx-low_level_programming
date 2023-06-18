@@ -9,7 +9,12 @@ int main(void)
 {
 	char le;
 
-	for (le = 'z'; le >= 'a'; le--)
+	le = 'z';
+	while
+		(le >= 'a') {
+			putchar(le);
+			le--;
+		}
 		putchar('\n');
 
 	return (0);
