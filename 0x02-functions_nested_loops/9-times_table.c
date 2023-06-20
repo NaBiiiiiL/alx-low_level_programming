@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * timr-table - prints the 9 times table
+ * times-table - prints the 9 times table
  *
  * Examp;e Table
  * 0, 0, 0, 0, ..
