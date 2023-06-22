@@ -2,13 +2,22 @@
 #include "main.h"
 
 /**
- * _putchar - writes the character c to stdout
- * @c: The character to print
+ * print_most_numbers - print 0 - 9
+ * from 2 and 4 and you can
+ * only using _putchar 2
  *
- * Return: on success 1.
- * on error, -1 is returned, and error is set appropriately
+ * Return: Always 0 (success)
  */
-int _putchar(char c)
+
+void print_most_numbers(void)
 {
-	return (write(1, &c, 1));
+	int num;
+	
+	for (num = 0; num <= 9; num++)
+	{
+		if (num == 2 || num == 4)
+			continue;
+		_putchar(num + 48);
+	}
+	_putchar('\n');
 }
