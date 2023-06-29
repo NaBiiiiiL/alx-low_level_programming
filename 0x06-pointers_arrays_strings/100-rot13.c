@@ -6,7 +6,7 @@
  * Return: oncodes string
  */
 
-char *rot1(char *s)
+char *rot13(char *s)
 {
 	int i;
 
@@ -14,7 +14,7 @@ char *rot1(char *s)
 	char ROT13[] = "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM";
 	char *ptr = s;
 
-	wile (*s)
+	while (*s)
 	{
 		for (i = 0; i <= 52; i++)
 		{
