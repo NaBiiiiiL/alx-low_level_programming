@@ -18,7 +18,7 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 	while (n2[j] != '\0')
 		j++;
 	if (i > j)
-		l = i:
+		l = i;
 	else
 		l = j;
 	if (l + 1 > size_r)
@@ -39,7 +39,7 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 		r[k] = (f + s + d) % 10 + '0';
 		d = (f + s + d) / 10;
 	}
-	if ( == 1)
+	if (d == 1)
 	{
 		r[l + 1] = '\0';
 		if (l + 2 > size_r)
