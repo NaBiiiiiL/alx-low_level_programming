@@ -7,7 +7,7 @@
  * Return: Always 0 (success)
  */
 
-char *_strchr(char *s, charc)
+char *_strchr(char *s, char c)
 {
 	int i = 0;
 
