@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * _puts_recurion - prints a string, followed by a new line
+ * _puts_recursion - prints a string, followed by a new line
  * @s: pointer to the string
  * Return: void
  */
 
-void _puts_recurion(char *s)
+void _puts_recursion(char *s)
 {
 	if (*s == '\0')
 	{
@@ -15,6 +15,6 @@ void _puts_recurion(char *s)
 	else
 	{
 		_putchar(*s);
-		_puts_recurion(s + 1);
+		_puts_recursion(s + 1);
 	}
 }
