@@ -5,7 +5,7 @@
  * main - print sum of 2 numbers
  * @argc: number of arguments
  * @argv: pointer arayy of arguments
- * Retyrn: 0
+ * Return: 0
  */
 
 int main(int argc, char *argv[])

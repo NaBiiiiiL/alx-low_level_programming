@@ -5,7 +5,7 @@
  * main - it all start here
  * @argc: number of arguments
  * @argv: pointer arayy of arguments
- * Retyrn: 0
+ * Return: 0
  */
 
 int main(int argc, char *argv[])
