@@ -1,15 +1,20 @@
 #include <stdio.h>
 
 /**
- * main - prints program name, followed by a new line
+ * main - prints all arguments 
  * @argc: int
  * @argv: list
+ *
  * Return: 0
  */
 
 int main(int argc, char const *argv[])
 {
-	(void)argc;
-	printf("%s\n", argv[0]);
+	int i = 0;
+	while (argc --)
+	{
+		printf("%s\n", argv[i]);
+		i++;
+	}
 	return (0);
 }
