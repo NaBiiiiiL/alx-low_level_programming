@@ -16,8 +16,9 @@ char *_strdup(char *str);
 		return (NULL);
 
 	for (; str[size] != '\0'; size++)
-		;
-	/* +1 on thew size puts the end of srting character */
+	;
+
+	/* +1 on the size puts the end of srting character */
 	m = malloc(size * sizeof(*str) + 1);
 
 	if (m == 0)
@@ -25,7 +26,7 @@ char *_strdup(char *str);
 	else
 	{
 		for (; i < size; i++)
-			m[i] = str [i];
+			m[i] = str[i];
 	}
 	return (m);
 }
