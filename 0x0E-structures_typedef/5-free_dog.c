@@ -12,7 +12,7 @@ void free_dog(dog_t *d)
 {
 	if (d)
 	{
-		if (->name)
+		if (d->name)
 			free(d->name);
 		if (d->owmer)
 			free(d->owner);
