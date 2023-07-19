@@ -30,7 +30,7 @@ int op_sub(int a, int b)
  * op_div - multplies two integers
  * @a: the first int
  * @b: the second int
- * 
+ *
  * Return: the product
  */
 
